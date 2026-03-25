@@ -1,0 +1,81 @@
+/* Style pour la page En savoir plus GSB */
+
+main.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(10,42,102,0.12);
+    padding: 38px 32px;
+    margin: 0 auto;
+}
+
+.card h2 {
+    color: #0a2a66;
+    font-size: 2rem;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #094bb0;
+    font-size: 1.2rem;
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #222;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.card ul {
+    margin: 0 0 18px 0;
+    padding-left: 24px;
+}
+
+.card ul li {
+    color: #0a2a66;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 18px;
+}
+
+.card ul li::before {
+    content: "\2714";
+    color: #094bb0;
+    position: absolute;
+    left: 0;
+    font-size: 1.1em;
+}
+
+.card a {
+    color: #094bb0;
+    text-decoration: underline;
+}
+
+.card a:hover {
+    text-decoration: none;
+    color: #0a2a66;
+}
+
+@media (max-width: 700px) {
+    main.container {
+        padding: 0 6px;
+    }
+    .card {
+        padding: 18px 6px;
+    }
+    .card h2 {
+        font-size: 1.3rem;
+    }
+    .card h3 {
+        font-size: 1rem;
+    }
+}

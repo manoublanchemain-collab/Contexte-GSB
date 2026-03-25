@@ -1,0 +1,100 @@
+.btn-home {
+    display: inline-block;
+    margin: 18px 24px;
+    padding: 8px 14px;
+    background: #0a2a66;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    box-shadow: 0 2px 6px #0a2a66;
+}
+.btn-home:hover {
+    background: #0a2a66;
+}
+
+.container {
+    margin-top: 6px;
+}
+
+.footer {
+    text-align: center;
+    padding: 18px 0;
+}
+main.container {
+    flex: 1;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+main.container h1 {
+    font-size: 28px;
+    color: #0a2a66;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.maj {
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #0a2a66;
+}
+
+section h2 {
+    color: #0a2a66;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+section p {
+    line-height: 1.7;
+    color: #333;
+    font-size: 14px;
+}
+
+section a {
+    color: #0a2a66;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    main.container {
+        padding: 0 10px;
+        margin: 30px auto;
+    }
+
+    main.container h1 {
+        font-size: 22px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    section h2 {
+        font-size: 16px;
+    }
+
+    section p {
+        font-size: 13px;
+    }
+}
+

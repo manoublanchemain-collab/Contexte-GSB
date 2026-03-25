@@ -1,0 +1,75 @@
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.profil-card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.profil-card h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #0a2a66;
+}
+
+.profil-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 40px;
+}
+
+.profil-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e4fa3;
+}
+
+.profil-actions {
+    margin-top: 40px;
+    text-align: right;
+}
+
+.btn-primary {
+    background-color: #1e4fa3;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #163b7d;
+}
+
+.btn-secondary {
+    background-color: #e0e6f5;
+    color: #0a2a66;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #cfd8f0;
+}

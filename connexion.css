@@ -1,0 +1,79 @@
+.page-connexion {
+    background: linear-gradient(135deg, #0a2a66, #1e4fa3);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-connexion main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.page-connexion .container {
+    background-color: white;
+    max-width: 420px;
+    width: 100%;
+    padding: 35px;
+    border-radius: 14px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+.page-connexion h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0a2a66;
+}
+
+.page-connexion form label {
+    display: block;
+    margin-top: 18px;
+    font-weight: bold;
+    color: #0a2a66;
+}
+
+.page-connexion form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.page-connexion form input:focus {
+    outline: none;
+    border-color: #0a2a66;
+    box-shadow: 0 0 5px rgba(10, 42, 102, 0.3);
+}
+
+.page-connexion button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #0a2a66;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.page-connexion button:hover {
+    background-color: #07214a;
+}
+
+
+@media (max-width: 768px) {
+    .page-connexion .container {
+        padding: 25px;
+    }
+
+    .page-connexion h2 {
+        font-size: 20px;
+    }
+}
