@@ -2,7 +2,9 @@ main {
     max-width: 1100px;
     margin: 40px auto;
     padding: 0 20px;
+    color: fuchsia;
 }
+
 
 main h2 {
     text-align: center;
